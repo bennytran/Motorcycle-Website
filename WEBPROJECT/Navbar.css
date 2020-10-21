@@ -6,6 +6,7 @@ body{
   width: 100%;
   background: black;
   overflow: auto;
+  z-index: 999;
 }
 .menu a:hover{
   background-color: white;
@@ -34,6 +35,7 @@ body{
   font-family: Arial;
   letter-spacing: 0.5px;
   padding: 22px 14px;
+
 }
 .menu ul li ul{
   display: none;
@@ -42,6 +44,7 @@ body{
   padding: 0px;
   border-radius: 0px 0px 5px 5px;
   color: white;
+  z-index: 999;
 }
 .menu ul li:hover ul{
   display: grid;
