@@ -5,17 +5,20 @@ body{
 .SearchEvent{
     left: 256px;
     top: 172px;
+    margin: 0;
     position: absolute;
 }
 .SelectCatergory{
     left: 604px;
     top: 172px;
+    margin: 0;
     position: absolute;
 
 }
 .SearchByLocation{
     left: 952px;
     top: 172px;
+    margin: 0;
     position: absolute;
 }
 
@@ -25,6 +28,7 @@ body{
     padding-left: 5px;
     left: 250px;
     top: 199px;
+    margin: 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
@@ -44,6 +48,7 @@ body{
     padding-left: 5px;
     left: 600px;
     top: 199px;
+    margin: 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
@@ -62,6 +67,7 @@ body{
     padding-left: 5px;
     left: 950px;
     top: 199px;
+    margin: 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
@@ -77,6 +83,7 @@ body{
 .Reset-Button-bar1{
     top: 283px;
     left: 641px;
+    margin: 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
     -webkit-transition: 0.5s;
@@ -92,6 +99,7 @@ body{
 .Okay-Button-bar1{
     top: 283px;
     left: 770px;
+    margin: 0;
     box-sizing: border-box;
     border: 3px solid Blue;
     background: Blue;
@@ -111,13 +119,15 @@ body{
 .column{
   width: 30%;
   padding: 15px;
-  position: absolute;
+  position: relative;
+  margin: 0;
   top: 420px;
-  left: 900px;
+  left: 700px;
   text-align: left;
 }
 .Calendar{
-  position: absolute;
+  position: relative;
+  margin: 0;
   top: 750px;
-  left: 900px;
+  left: 700px;
 }
