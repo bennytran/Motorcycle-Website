@@ -123,6 +123,27 @@ body{
   left: 1090px;
   text-align: left;
 }
+.leftcolumn{
+  padding: 15px;
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  text-align: center;
+}
+.middlecolumn{
+  padding: 15px;
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  text-align: center;
+}
+.rightcolumn{
+  padding: 15px;
+  position: absolute;
+  top: 400px;
+  left: 750px;
+  text-align: center;
+}
 .Calendar{
   position: absolute;
   top: 800px;
