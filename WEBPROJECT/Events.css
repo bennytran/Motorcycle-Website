@@ -117,17 +117,16 @@ body{
 /*Search Bars Above*/
 /*Left Columns*/
 .column{
-  width: 30%;
   padding: 15px;
-  position: relative;
-  margin: 0;
+  position: absolute;
   top: 420px;
-  left: 700px;
+  left: 1090px;
   text-align: left;
 }
 .Calendar{
-  position: relative;
+  position: absolute;
+  top: 800px;
+  left: 1110px;
   margin: 0;
-  top: 750px;
-  left: 700px;
+  padding: 0;
 }
