@@ -6,7 +6,6 @@ body{
   width: 100%;
   background: black;
   overflow: auto;
-  z-index: 999;
 }
 .menu a:hover{
   background-color: white;
@@ -64,6 +63,7 @@ body{
   left:90%;
   transform: translate(-50%,-50%);
   background: white;
+  color: black;
   height:40px;
   border-radius:40px;
   padding:10px;
@@ -71,7 +71,7 @@ body{
 
 }
 .search-box:hover > .search-txt{
-  width: 240px;
+  width: 200px;
   padding: 0 5px;
 }
 .search-btn{
@@ -92,7 +92,7 @@ body{
   outline: none;
   float: left;
   padding: 0;
-  color: white;
+  color: black;
   font-size: 16px;
   transition: 0.4s;
   line-height: 20px;

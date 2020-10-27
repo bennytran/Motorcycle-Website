@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/b909d719cc.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
     <!--Icon Library-->
     <!--Bike Slider Bootstrap-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,26 +54,39 @@
 
 <!--Top Navigation Bar-->
 <!--Search Bar-->
-  <form>
+  <form class="Background">
     <div class="SearchEvent">
-      <label for="Search">Search Event</label>
+      <label style="font-family: 'Quicksand', sans-serif;" for="Search">Search Event</label>
     </div>
     <div class="SelectCatergory">
-      <label for="Select">Select Catergory</label>
+      <label style="font-family: 'Quicksand', sans-serif;" for="Select">Select Catergory</label>
     </div>
     <div class="SearchByLocation">
-      <label for="Location">Search by Location/City</label>
+      <label style="font-family: 'Quicksand', sans-serif;" for="Location">Search by Location/City</label>
     </div>
   </form>
-  <form>
+  <form class="Background">
+      <input class="Okay-Button-bar1" style="font-family: 'Quicksand', sans-serif;" type="button" id="Location" name="Location" value="OK">
+      <input class="Reset-Button-bar1" style="font-family: 'Quicksand', sans-serif;" type="button" id="Location" name="Location" value="Reset">
       <input class="Search-By-Location-bar1" type="text" id="Location" name="Location">
       <input class="Event-Search-bar1" type="text" id="Search" name="Search">
       <select class="Select-Catergory-bar1" id="Catergory" name="Catergory">
-        <option value="">All Catergories</option>
-        <option value="Oldschool">Oldschool</option>
-        <option value="Newschool">Newschool</option>
+        <option style="font-family: 'Quicksand', sans-serif;" value="">All Catergories</option>
+        <option style="font-family: 'Quicksand', sans-serif;"value="Oldschool">Oldschool</option>
+        <option style="font-family: 'Quicksand', sans-serif;"value="Newschool">Newschool</option>
       </select>
   </form>
+  <div class="row">
+    <div class="column">
+      <h2 style="font-family: 'Lobster', cursive;">Motuka Events</h2>
+      <p style="font-family: 'Martel', serif; font-size: 17px;">This is the Motuka Bike Events page!<br> What you'll find here is a list of upcoming <br>events that we have put together and <br>when they will happen. You'll find all the <br>information you need here on this page <br>and to see how you can connect to these<br> events. Hope to see you there!!!
+      <br><br>~Dan</p>
 
+    </div>
+  </div>
+    <div class="Calendar">
+      <h2 style="font-family: 'Lobster', cursive;">The Motuka Calendar</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23039BE5&amp;ctz=Pacific%2FAuckland&amp;src=aGthdWQxM3M0NjVobnEwZzBpYnVhZTJ2cTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23795548&amp;showTitle=1&amp;title=Motuka%20Bikes%20Event%20Calendar&amp;showNav=1&amp;showPrint=0&amp;showTz=0&amp;showCalendars=1&amp;showTabs=0" style="border:solid 1px #777" width="400" height="400"></iframe>
+    </div>
   </body>
 </html>
