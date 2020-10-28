@@ -1,0 +1,195 @@
+body{
+  margin-top: 200px;
+}
+/*Search Bars*/
+.SearchEvent{
+    left: 256px;
+    top: 172px;
+    margin: 0;
+    position: absolute;
+}
+.SelectCatergory{
+    left: 604px;
+    top: 172px;
+    margin: 0;
+    position: absolute;
+
+}
+.SearchByLocation{
+    left: 952px;
+    top: 172px;
+    margin: 0;
+    position: absolute;
+}
+
+.Event-Search-bar1{
+    width: 20%;
+    padding: 10px 20px;
+    padding-left: 5px;
+    left: 250px;
+    top: 199px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 9px;
+    font-size: 18px;
+    position: absolute;
+
+}
+.Event-Search-bar1:Focus{
+  border: 3px solid #555;
+}
+.Select-Catergory-bar1{
+    width: 20%;
+    padding: 12px 20px;
+    padding-left: 5px;
+    left: 600px;
+    top: 199px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 9px;
+    font-size: 18px;
+    position: absolute;
+}
+.Select-Catergory-bar1:Focus{
+    border: 3px solid #555;
+}
+.Search-By-Location-bar1{
+    width: 20%;
+    padding: 12px 20px;
+    padding-left: 5px;
+    left: 950px;
+    top: 199px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 9px;
+    font-size: 18px;
+    position: absolute;
+}
+.Search-By-Location-bar1:Focus{
+    border: 3px solid #555;
+}
+.Reset-Button-bar1{
+    top: 283px;
+    left: 641px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 9px;
+    font-size: 26px;
+    position: absolute;
+}
+.Reset-Button-bar1:Focus{
+  border: 3px solid #000;
+}
+.Okay-Button-bar1{
+    top: 283px;
+    left: 770px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 3px solid Blue;
+    background: Blue;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 9px;
+    font-size: 26px;
+    position: absolute;
+}
+.Okay-Button-bar1:Focus{
+    border: 3px solid #000;
+}
+/*Search Bars Above*/
+/*Left Columns*/
+.column{
+  padding: 15px;
+  position: absolute;
+  top: 420px;
+  left: 1090px;
+  text-align: left;
+}
+.leftcolumn{
+  padding: 15px;
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  text-align: center;
+}
+.middlecolumn{
+  padding: 15px;
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  text-align: center;
+}
+.rightcolumn{
+  padding: 15px;
+  position: absolute;
+  top: 400px;
+  left: 750px;
+  text-align: center;
+}
+.leftcolumnrw1{
+  padding: 15px;
+  position: absolute;
+  top: 900px;
+  left: 150px;
+  text-align: center;
+}
+.middlecolumnrw1{
+  padding: 15px;
+  position: absolute;
+  top: 900px;
+  left: 450px;
+  text-align: center;
+}
+.rightcolumnrw1{
+  padding: 15px;
+  position: absolute;
+  top: 900px;
+  left: 750px;
+  text-align: center;
+}
+.leftcolumnrw2{
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 150px;
+  text-align: center;
+}
+.middlecolumnrw2{
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 450px;
+  text-align: center;
+}
+.rightcolumnrw2{
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 750px;
+  text-align: center;
+}
+.Calendar{
+  position: absolute;
+  top: 800px;
+  left: 1110px;
+  margin: 0;
+  padding: 0;
+}
