@@ -144,6 +144,48 @@ body{
   left: 750px;
   text-align: center;
 }
+.leftcolumnrw1{
+  padding: 15px;
+  position: absolute;
+  top: 900px;
+  left: 150px;
+  text-align: center;
+}
+.middlecolumnrw1{
+  padding: 15px;
+  position: absolute;
+  top: 900px;
+  left: 450px;
+  text-align: center;
+}
+.rightcolumnrw1{
+  padding: 15px;
+  position: absolute;
+  top: 900px;
+  left: 750px;
+  text-align: center;
+}
+.leftcolumnrw2{
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 150px;
+  text-align: center;
+}
+.middlecolumnrw2{
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 450px;
+  text-align: center;
+}
+.rightcolumnrw2{
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 750px;
+  text-align: center;
+}
 .Calendar{
   position: absolute;
   top: 800px;
