@@ -59,7 +59,7 @@ body{
 }
 .search-box{
   position:absolute;
-  top:5.2%;
+  top:5.5%;
   left:90%;
   transform: translate(-50%,-50%);
   background: white;
@@ -97,6 +97,4 @@ body{
   transition: 0.4s;
   line-height: 20px;
   width: 0px;
-
-
 }
