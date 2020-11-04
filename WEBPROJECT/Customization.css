@@ -25,3 +25,90 @@ body {
   text-shadow: grey 2px 2px;
 
 }
+.Firstname{
+  border-radius: 3px;
+  width: 20%;
+  padding: 10px 20px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 9px;
+  font-size: 18px;
+}
+.Firstname:Focus{
+  border: 3px solid #555;
+}
+.Lastname{
+  border-radius: 3px;
+  width: 20%;
+  padding: 10px 20px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 9px;
+  font-size: 18px;
+}
+.Lastname:Focus{
+  border: 3px solid #555;
+}
+.Phonenumber{
+  border-radius: 3px;
+  width: 20%;
+  padding: 10px 20px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 9px;
+  font-size: 18px;
+}
+.Phonenumber:Focus{
+  border: 3px solid #555;
+}
+.Email{
+  border-radius: 3px;
+  width: 20%;
+  padding: 10px 20px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 9px;
+  font-size: 18px;
+}
+.Email:Focus{
+  border: 3px solid #555;
+}
+.Submit{
+  padding: 3px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 9px;
+  font-size: 26px;
+}
+.Submit:Focus{
+  border: 3px solid #555;
+}
+.Paragraph{
+  font-size: 18px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
