@@ -4,20 +4,20 @@ body{
 /*Search Bars*/
 .SearchEvent{
     left: 256px;
-    top: 172px;
+    top: 212px;
     margin: 0;
     position: absolute;
 }
 .SelectCatergory{
     left: 604px;
-    top: 172px;
+    top: 212px;
     margin: 0;
     position: absolute;
 
 }
 .SearchByLocation{
     left: 952px;
-    top: 172px;
+    top: 212px;
     margin: 0;
     position: absolute;
 }
@@ -27,7 +27,7 @@ body{
     padding: 10px 20px;
     padding-left: 5px;
     left: 250px;
-    top: 199px;
+    top: 239px;
     margin: 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
@@ -47,7 +47,7 @@ body{
     padding: 12px 20px;
     padding-left: 5px;
     left: 600px;
-    top: 199px;
+    top: 239px;
     margin: 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
@@ -66,7 +66,7 @@ body{
     padding: 12px 20px;
     padding-left: 5px;
     left: 950px;
-    top: 199px;
+    top: 239px;
     margin: 0;
     box-sizing: border-box;
     border: 3px solid #ccc;
@@ -81,7 +81,7 @@ body{
     border: 3px solid #555;
 }
 .Reset-Button-bar1{
-    top: 283px;
+    top: 323px;
     left: 641px;
     margin: 0;
     box-sizing: border-box;
@@ -97,7 +97,7 @@ body{
   border: 3px solid #000;
 }
 .Okay-Button-bar1{
-    top: 283px;
+    top: 323px;
     left: 770px;
     margin: 0;
     box-sizing: border-box;
@@ -134,7 +134,7 @@ body{
   padding: 15px;
   position: absolute;
   top: 400px;
-  left: 450px;
+  left: 464px;
   text-align: center;
 }
 .rightcolumn{
@@ -155,7 +155,7 @@ body{
   padding: 15px;
   position: absolute;
   top: 900px;
-  left: 450px;
+  left: 460px;
   text-align: center;
 }
 .rightcolumnrw1{
@@ -169,7 +169,7 @@ body{
   padding: 15px;
   position: absolute;
   top: 1400px;
-  left: 150px;
+  left: 125px;
   text-align: center;
 }
 .middlecolumnrw2{
