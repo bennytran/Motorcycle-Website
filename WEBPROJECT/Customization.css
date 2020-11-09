@@ -89,6 +89,23 @@ body {
 .Email:Focus{
   border: 3px solid #555;
 }
+textarea {
+  width: 300px;
+  height: 150px;
+  padding-left: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 9px;
+  background-color: #f8f8f8;
+  resize: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+textarea:Focus{
+  border: 3px solid #555;
+}
 .Submit{
   padding: 3px;
   margin: 0;
