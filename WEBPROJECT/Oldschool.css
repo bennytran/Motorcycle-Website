@@ -101,6 +101,19 @@ body {
  text-align: center;
 }
 
+.cardrom2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+ padding: 15px;
+ position: absolute;
+ top: 1400px;
+ left: 610px;
+ text-align: center;
+}
+
 .cardror1{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
  max-width: 300px;
@@ -112,6 +125,31 @@ body {
  top: 900px;
  left: 1000px;
  text-align: center;
+}
+
+.cardror2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+ padding: 15px;
+ position: absolute;
+ top: 1400px;
+ left: 1000px;
+ text-align: center;
+}
+
+.cardro2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 210px;
+  text-align: center;
 }
 
 
