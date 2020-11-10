@@ -1,11 +1,13 @@
 body, html, *{
   margin: 0;
   padding: 0;
+
 }
 
 body {
   text-align: center;
     background-color: rgba(250, 216, 216,);
+
 }
 .header{
 	width: 100%;
@@ -22,7 +24,7 @@ body {
   letter-spacing: 1,5px;
   color: rgb(245, 233, 233);
   text-shadow: grey 2px 2px;
-  
+
 
 
 }
@@ -31,6 +33,7 @@ body {
   color:  rgb(245, 233, 233);
   font-size: 20px;
 }
+
 
 .cardro{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -42,6 +45,7 @@ body {
   position: absolute;
   top: 410px;
   left: 210px;
+  max-height: 500px;
 
 
 }
@@ -56,7 +60,7 @@ body {
  position: absolute;
  top: 410px;
  left: 610px;
- text-align: center;
+
 
 }
 
@@ -94,7 +98,22 @@ body {
  font-family: arial;
  padding: 15px;
  position: absolute;
- top: 900px;
+ top: 910px;
+ left: 610px;
+ text-align: center;
+
+
+}
+
+.cardrom2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+ padding: 15px;
+ position: absolute;
+ top: 1400px;
  left: 610px;
  text-align: center;
 }
@@ -112,6 +131,31 @@ body {
  text-align: center;
 }
 
+.cardror2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+ padding: 15px;
+ position: absolute;
+ top: 1400px;
+ left: 1000px;
+ text-align: center;
+}
+
+.cardro2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 210px;
+  text-align: center;
+}
+
 
 
 .price{
@@ -119,7 +163,7 @@ body {
   font-size: 22px;
 }
 
-.cardro .cardrom ,button{
+button{
   border: none;
   outline: 0;
   padding: 12px;
@@ -131,75 +175,58 @@ body {
   font-size: 18px;
 }
 
-.cardro .cardrom ,button:hover{
+button:hover{
   opacity: 0.7;
 }
 
 
 
-.slidershow{
-  width: 700px;
-  height: 400px;
-  overflow: hidden;
+.popup .overlay {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:rgba(0,0,0,0.7);
+  z-index:1;
+  display:none;
 }
-.middle{
-  position: absolute;
-  top: 200%;
+
+.popup .content {
+  position: fixed;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 1px;
-}
-.navigation{
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-.bar{
-  width: 50px;
-  height: 10px;
-  border: 2px solid #fff;
-  margin: 6px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.bar:hover{
-  background: #fff;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
 }
 
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
+.popup .close-btn {
+  cursor:pointer;
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:#222;
+  color:#fff;
+  font-size:25px;
+  font-weight:600;
+  line-height:30px;
+  text-align:center;
+  border-radius:50%;
 }
 
-.slides{
-  width: 500%;
-  height: 100%;
-  display: flex;
+.popup.active .overlay {
+  display:block;
 }
 
-.slide{
-  width: 20%;
-  transition: 0.6s;
-}
-.slide img{
-  width: 100%;
-  height: 100%;
-}
-
-#r1:checked ~ .s1{
-  margin-left: 0;
-}
-#r2:checked ~ .s1{
-  margin-left: -20%;
-}
-#r3:checked ~ .s1{
-  margin-left: -40%;
-}
-#r4:checked ~ .s1{
-  margin-left: -60%;
-}
-#r5:checked ~ .s1{
-  margin-left: -80%;
+.popup.active .content {
+  transition:all 300ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
 }
