@@ -20,6 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--Bike Slider Bootstrap-->
+    <script defer src="script.js"></script>
   </head>
 
 <!--Top Navigation bar-->
@@ -51,59 +52,187 @@
 
 <!--Top Navigation Bar-->
 <body>
-  
+
 <div class="header">
   <h1>Accessories</h1>
   <p>Description of Accessories for harleys</p>
  </div>
 
  <div class="cardro">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1>Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About Accessories</p>
-   <p><button>Add to Cart</button></p>
+   <img src="Accessories img\\blue helm.jpg" alt="h" style="width:57%" >
+   <h1>harley</h1>
+   <p class="price">$11.99</p>
+   <p>About bikes</p>
+   <div class="popup" id="popup-1">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(1)">&times;</div>
+   <h1>Title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+  <img src="Accessories img\\blue helm.jpg" alt="h" style="width:100%">
  </div>
+<p><button>Add to Cart</button></p>
+</div>
+<button onclick="togglePopup(1)">View</button>
+
+  </div>
+
 
  <div class="cardro1">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
+   <img src="Accessories img\\oxford_stormex_motorcycle_cover_750x750.jpg" alt="h" style="width:67%">
+   <h1>harley</h1>
+   <p class="price">$12.99</p>
+   <p>About bikes</p>
+   <div class="popup" id="popup-2">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(2)">&times;</div>
+   <h1>Title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+  <img src="Accessories img\\oxford_stormex_motorcycle_cover_750x750.jpg" alt="h" style="width:100%">
  </div>
+<p><button>Add to Cart</button></p>
+</div>
+<button onclick="togglePopup(2)">View</button>
 
- <div class="cardror1">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
- </div>
+  </div>
+
+  <div class="cardro2">
+    <img src="Accessories img\\K99999503_1.jpg" alt="h" style="width:100%">
+    <h1>harley</h1>
+    <p class="price">$13.99</p>
+    <p>About bikes</p>
+    <div class="popup" id="popup-3">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(3)">&times;</div>
+    <h1>Title</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+   <img src="Accessories img\\K99999503_1.jpg" alt="h" style="width:100%">
+  </div>
+<p><button>Add to Cart</button></p>
+</div>
+<button onclick="togglePopup(3)">View</button>
+
+   </div>
+
+
+
+
 
  <div class="cardrom">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
+   <img src="Accessories img\\sedici_strada_ii_dino_helmet_grey_black_white_750x750.jpg" alt="h" style="width:68%">
+   <h1>harley</h1>
+   <p class="price">$14.99</p>
+   <p>About bikes</p>
+   <div class="popup" id="popup-4">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(4)">&times;</div>
+   <h1>Title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+  <img src="Accessories img\\sedici_strada_ii_dino_helmet_grey_black_white_750x750.jpg" alt="h" style="width:100%">
  </div>
+<p><button>Add to Cart</button></p>
+</div>
+<button onclick="togglePopup(4)">View</button>
+  </div>
+
 
  <div class="cardrom1">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
+   <img src="Accessories img\\tour_master_elite_motorcycle_cover_750x750.jpg" alt="h" style="width:68%">
+   <h1>harley</h1>
+   <p class="price">$15.99</p>
+   <p>About bikes</p>
+   <div class="popup" id="popup-5">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(5)">&times;</div>
+   <h1>Title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+  <img src="Accessories img\\tour_master_elite_motorcycle_cover_750x750.jpg" alt="h" style="width:100%">
  </div>
+<p><button>Add to Cart</button></p>
+</div>
+<button onclick="togglePopup(5)">View</button>
 
- <div class="cardror">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
+  </div>
+
+  <div class="cardrom2">
+    <img src="Accessories img\\kawasaki kc.jpg" alt="h" style="width:68%">
+    <h1>harley</h1>
+    <p class="price">$16.99</p>
+    <p>About bikes</p>
+    <div class="popup" id="popup-6">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(6)">&times;</div>
+    <h1>Title</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+   <img src="Accessories img\\kawasaki kc.jpg" alt="h" style="width:100%">
+  </div>
+<p><button>Add to Cart</button></p>
+</div>
+<button onclick="togglePopup(6)">View</button>
+
+   </div>
+
+  <div class="cardror">
+    <img src="Accessories img\\sedici_strada2_helmet_matte_black_750x750.jpg" alt="h" style="width:67%">
+    <h1>harley</h1>
+    <p class="price">$17.99</p>
+    <p>About bikes</p>
+    <div class="popup" id="popup-7">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(7)">&times;</div>
+    <h1>Title</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+   <img src="Accessories img\\sedici_strada2_helmet_matte_black_750x750.jpg" alt="h" style="width:100%">
+  </div>
+  <p><button>Add to Cart</button></p>
+  </div>
+  <button onclick="togglePopup(7)">View</button>
+
+   </div>
+
+
+  <div class="cardror1">
+    <img src="Accessories img\\yamaha_r1_bike_cover_750x750.jpg" alt="h" style="width:68%">
+    <h1>harley</h1>
+    <p class="price">$18.99</p>
+    <p>About bikes</p>
+    <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(8)">&times;</div>
+    <h1>Title</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+   <img src="Accessories img\\yamaha_r1_bike_cover_750x750.jpg" alt="h" style="width:100%">
+  </div>
+  <p><button>Add to Cart</button></p>
+  </div>
+  <button onclick="togglePopup(8)">View</button>
+   </div>
+
+   <div class="cardror2">
+     <img src="Accessories img\\ducati kc.jpg" alt="h" style="width:42%">
+     <h1>harley</h1>
+     <p class="price">$19.99</p>
+     <p>About bikes</p>
+     <div class="popup" id="popup-9">
+   <div class="overlay"></div>
+   <div class="content">
+     <div class="close-btn" onclick="togglePopup(9)">&times;</div>
+     <h1>Title</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+    <img src="Accessories img\\ducati kc.jpg" alt="h" style="width:100%">
+   </div>
    <p><button>Add to Cart</button></p>
- </div>
+   </div>
+   <button onclick="togglePopup(9)">View</button>
+    </div>
+
 
 
   </body>

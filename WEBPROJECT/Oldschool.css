@@ -44,6 +44,7 @@ body {
   position: absolute;
   top: 410px;
   left: 210px;
+  max-height: 500px;
 
 
 }
@@ -58,7 +59,7 @@ body {
  position: absolute;
  top: 410px;
  left: 610px;
- text-align: center;
+
 
 }
 
@@ -96,9 +97,11 @@ body {
  font-family: arial;
  padding: 15px;
  position: absolute;
- top: 900px;
+ top: 910px;
  left: 610px;
  text-align: center;
+
+
 }
 
 .cardrom2 {
@@ -176,37 +179,6 @@ button:hover{
 }
 
 
-
-/* .slidershow{
-  width: 700px;
-  height: 400px;
-  overflow: hidden;
-}
-.middle{
-  position: absolute;
-  top: 200%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 1px;
-}
-.navigation{
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-.bar{
-  width: 50px;
-  height: 10px;
-  border: 2px solid #fff;
-  margin: 6px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.bar:hover{
-  background: #fff;
-} */
 
 .popup .overlay {
   position:fixed;
