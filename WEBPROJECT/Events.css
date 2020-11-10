@@ -193,6 +193,13 @@ body{
   margin: 0;
   padding: 0;
 }
+.Emblem{
+  position: absolute;
+  top: 1350px;
+  left: 1050px;
+  margin: 0;
+  padding: 0;
+}
 .footer{
   background-color: black;
   color: white;
