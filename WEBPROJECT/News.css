@@ -8,12 +8,19 @@ body {
 	height: 300px;
 	background-position: center center;
 	background-image: url("BikesOS\\harley-davidson-flstf-fat-boy-1990-moto.jpeg");
+
+  /* Reference for Image: BikesOS\\harley-davidson-flstf-fat-boy-1990-moto.jpeg */
+
 	background-size: cover;
   padding-top: .05%;
   top: 300px;
 }
-
-/* Create two unequal columns that floats next to each other */
+.topcontent{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* Left column */
 .leftcolumn {
   float: left;
