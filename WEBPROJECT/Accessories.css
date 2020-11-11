@@ -15,7 +15,6 @@ body {
 	height: 300px;
 	background-position: center center;
 	background-image: url("IMG\\banner_riding.jpg");
-  <!--Refrence:https://www.bostonharley.com/default.asp?page=riding-academy-->
 	background-size: cover;
   padding-top: .05%;
 }
