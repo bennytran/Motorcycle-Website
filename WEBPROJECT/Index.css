@@ -128,3 +128,10 @@ button:hover{
   top: 2600px;
   width:100%;
 }
+.Contentfooter{
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
