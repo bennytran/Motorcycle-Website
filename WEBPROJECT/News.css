@@ -6,21 +6,21 @@ body {
 .header{
 	width: 100%;
 	height: 300px;
-	background-position: center;
-	background-image: url("BikesNS\\VMAX 2020.png");
+	background-position: center center;
+	background-image: url("BikesOS\\harley-davidson-flstf-fat-boy-1990-moto.jpeg");
+
+  /* Reference for Image: BikesOS\\harley-davidson-flstf-fat-boy-1990-moto.jpeg */
+
 	background-size: cover;
   padding-top: .05%;
   top: 300px;
 }
-
-.header h1{
-  padding-top: 7%;
-  font-size: 48px;
-  color: black;
-  text-shadow: grey 2px 2px;
-
+.topcontent{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-/* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
   float: left;

@@ -2,7 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About Us</title>
+    <title>Accessories</title>
+    <!-- popup login -->
+    <link rel="stylesheet" href="popup_login.css">
+    <!-- Footer -->
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- sticky social button  -->
+    <link rel="stylesheet" href="sticky social media buttons.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- sticky social button -->
     <!--Navigation Bar CSS File-->
     <link rel="stylesheet" href="Navbar.css">
     <!--Navigation Bar CSS File-->
@@ -20,8 +29,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--Bike Slider Bootstrap-->
+    <script defer src="script.js"></script>
   </head>
-
+  <body>
 <!--Top Navigation bar-->
 <nav class="menu">
   <ul>
@@ -43,67 +53,359 @@
   </ul>
   <div class="search-box">
     <input style="font-family: 'Quicksand', sans-serif;" class="search-txt" type="text" placeholder="Search..">
-    <a class="search-btn" href="#">
+    <a class="search-btn" href="service_maintenance.html">
     <i class="fas fa-search"></i>
     </a>
   </div>
 </nav>
 
 <!--Top Navigation Bar-->
-<body>
-  
+
+<!-- popup login -->
+
+<div class="center" >
+  <input type="checkbox" id="show" >
+
+  <label for="show" class="show-btn "  style="border-radius: 30px; left: 1185px; top: 38px; font-family: 'Times New Roman'; font-size: 28px; font-weight: 600 ; font-style: italic;">login</label>
+  <div class="container2" style="width: 400px;" >
+      <label for="show" class="close-btn fas fa-times" title="close"></label>
+      <div class="text"> Welcome to Motuka</div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+      </div>
+      <form action="#">
+              <div class="data">
+                  <label>Email or Phone</label>
+                  <input type="text" placeholder="Motuka@gmail.com or 0123456789" required>
+              </div>
+              <div class="data">
+                  <label>Password</label>
+                  <input type="password" required>
+              </div>
+              <div class="forgot-pass">
+              <a href="#">Forgot Password?</a></div>
+              <div class="btn">
+                  <div class="inner">
+              </div>
+              <button  type="submit"><a href="service_maintenance.html">login</a></button>
+          </div>
+          <div class="signup-link">
+          Not a member? <a href="signup_form.html">Signup now</a></div>
+      </form>
+  </div>
+</div>
+</div>
+<!-- popup login -->
+
+ <!-- social buttons start -->
+ <div class="social">
+  <a href="https://www.facebook.com/">Facebook<i class="fab fa-facebook"></i></a>
+  <a href="https://www.instagram.com/">Instagram<i class="fab fa-instagram"></i></a>
+  <a href="https://www.twitter.com/">Twitter<i class="fab fa-twitter"></i></a>
+  <a href="https://www.youtube.com/">Youtube<i class="fab fa-youtube"></i></a>
+</div>
+<!-- social buttons end -->
+
+
 <div class="header">
   <h1>Accessories</h1>
-  <p>Description of Accessories for harleys</p>
+  <p>Your Harley is more than a motorbike. It's a part of you and your riding style. </p>
+  <!-- Refrence:https://www.bostonharley.com/default.asp?page=riding-academy-->
  </div>
 
  <div class="cardro">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1>Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About Accessories</p>
-   <p><button>Add to Cart</button></p>
+   <img src="Accessories img\\blue helm.jpg" alt="h" style="width:62%" >
+   <!--Refrence: <!-https://www.revzilla.com/motorcycle/oxford-stormex-motorcycle-cover -->
+   <h3>Icon Airflite Inky Helmet</h3>
+   <p class="price">$250</p>
+
+   <div class="popup" id="popup-1">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(1)">&times;</div>
+   <h1>Icon Airflite Inky Helmet</h1>
+  <p>Feature:Injection molded polycarbonate shell for strength
+Multiple oversized intake and exhaust ports
+Fog-free inner sun shield
+Quick-change fog-free face shield
+Removable side plates
+Molded breath deflector
+Chin curtain
+Removable Hydradry moisture wicking liner
+Recessed twin channel supervent cooling system
+</p>
+  <img src="Accessories img\\blue helm.jpg" alt="h" style="width:100%">
  </div>
+<a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+</div>
+<button onclick="togglePopup(1)">View</button>
+
+  </div>
+
 
  <div class="cardro1">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
- </div>
+   <img src="Accessories img\\oxford_stormex_motorcycle_cover_750x750.jpg" alt="h" style="width:67%">
+   <!--Refrence:https://www.revzilla.com/motorcycle/oxford-stormex-motorcycle-cover -->
+   <h3>Oxford Stormex Motorcycle Cover</h3>
+   <p class="price">$95</p>
 
- <div class="cardror1">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
+   <div class="popup" id="popup-2">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(2)">&times;</div>
+   <h1>Oxford Stormex Motorcycle Cover</h1>
+  <p>Features:Tough outer protects against weather and knocks
+Soft, heat-resistant lining protects against scratches
+Reflective panels increase visibility at night
+Strategically positioned holes facilitate the use of a lock
+Lock pouch helps to keep your padlock off the ground
+Soft on the inside to protect your paintwork from scratches
+Wrap around splash protector prevents water from being absorbed up the lining
+Rear window allows the tag plate to be visible but internal 'curtain' enables it to be covered
+Front inner pocket with PVC window to hold the Oxford Solariser
+UV colorfast
+Rubber taping with UV protection</p>
+  <img src="Accessories img\\oxford_stormex_motorcycle_cover_750x750.jpg" alt="h" style="width:100%">
  </div>
+<a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+</div>
+<button onclick="togglePopup(2)">View</button>
 
- <div class="cardrom">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="cardro2">
+    <img src="Accessories img\\K99999503_1.jpg" alt="h" style="width:100%">
+    <!--Refrence: HTTPS://WWW.KAWASAKI.CA/EN-CA/SHOP/GIFTS-AND-COLLECTIBLES/KEYCHAINS/20579/KAWASAKI-KEY-CHAIN -->
+    <h3>Kawasaki Keychain</h3>
+    <p class="price">$13.99</p>
+
+    <div class="popup" id="popup-3">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(3)">&times;</div>
+    <h1>Kawasaki Keychain</h1>
+   <p>Kawasaki Keychain</p>
+   <img src="Accessories img\\K99999503_1.jpg" alt="h" style="width:100%">
+  </div>
+<a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+</div>
+<button onclick="togglePopup(3)">View</button>
+
+   </div>
+
+
+
+
+
+ <div class="cardrom" style="z-index: 1;">
+   <img src="Accessories img\\sedici_strada_ii_dino_helmet_grey_black_white_750x750.jpg" alt="h" style="width:63%">
+   <!--Refrence:https://www.revzilla.com/motorcycle/sedici-strada-2-dino-helmet -->
+   <h3>Sedici Strada II Dino Helmet</h3>
+   <p class="price">$210</p>
+
+   <div class="popup" id="popup-4">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(4)">&times;</div>
+   <h1>Sedici Strada II Dino Helmet</h1>
+  <p>Features:Proprietary shell of fiberglass and DuPont™ Kevlar® fiber is lightweight without sacrificing strength
+Aerodynamically tuned shape reduces lift and turbulence
+3 shell sizes: XS-SM, MD-LG, XL-3XL
+Dual-density EPS liner channeled for airflow
+Quick-release flat race shield is anti-fog, anti-scratch and pinlock ready (pinlock insert sold separately)
+Seamless 360-degree face shield gasket minimizes wind noise
+Dark smoke internal drop down sun visor
+2 position high flow chin vent channels fresh air across the inner shield and rider's face
+Dual intake vents at the crown with 3 settings
+3 rear exhaust vents to maximize air extraction
+Removable, washable multi-density cheek pads are moisture wicking and antibacterial</p>
+  <img src="Accessories img\\sedici_strada_ii_dino_helmet_grey_black_white_750x750.jpg" alt="h" style="width:100%;">
  </div>
+<a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+</div>
+<button onclick="togglePopup(4)">View</button>
+  </div>
+
 
  <div class="cardrom1">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
- </div>
+   <img src="Accessories img\\tour_master_elite_motorcycle_cover_750x750.jpg" alt="h" style="width:63%">
+   <!--Refrence: https://www.revzilla.com/motorcycle/tour-master-elite-motorcycle-cover   -->
+   <h3>Tour Master Elite Motorcycle Cover</h3>
+   <p class="price">$65</p>
 
- <div class="cardror">
-   <img src="img//darley.jpg" alt="h" style="width:100%">
-   <h1> Accessories</h1>
-   <p class="price">$19.99</p>
-   <p>About  Accessories</p>
-   <p><button>Add to Cart</button></p>
+   <div class="popup" id="popup-5">
+ <div class="overlay"></div>
+ <div class="content">
+   <div class="close-btn" onclick="togglePopup(5)">&times;</div>
+   <h1>Tour Master Elite Motorcycle Cover</h1>
+  <p>Features:Made from high quality 300 Denier Carbolex®
+100% waterproof
+Double stitched and taped seams
+Fully vented
+Aluminized heat panels help protect the cover from the hottest parts of the bike
+Elasticized bottom with 1” grommets can accommodate a locking device
+Soft windshield and tail section protector fabric
+Stuff bag included
+Fits most bikes</p>
+  <img src="Accessories img\\tour_master_elite_motorcycle_cover_750x750.jpg" alt="h" style="width:100%">
  </div>
+<a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+</div>
+<button onclick="togglePopup(5)">View</button>
+
+  </div>
+
+  <div class="cardrom2">
+    <img src="Accessories img\\kawasaki kc.jpg" alt="h" style="width:68%">
+    <!--Refrence:HTTPS://WWW.KAWASAKI.CA/EN-CA/SHOP/GIFTS-AND-COLLECTIBLES/KEYCHAINS/20579/KAWASAKI-KEY-CHAIN -->
+    <h3>Yamaha Keychain</h3>
+    <p class="price">$16.99</p>
+
+    <div class="popup" id="popup-6">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(6)">&times;</div>
+    <h1>Yamaha Keychain</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+   <img src="Accessories img\\kawasaki kc.jpg" alt="h" style="width:100%">
+  </div>
+<a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+</div>
+<button onclick="togglePopup(6)">View</button>
+
+   </div>
+
+  <div class="cardror">
+    <img src="Accessories img\\sedici_strada2_helmet_matte_black_750x750.jpg" alt="h" style="width:61%">
+    <!--Refrence: https://www.revzilla.com/motorcycle/sedici-strada-2-helmet-solid -->
+    <h3>Sedici Strada II Helmet – Solid</h3>
+    <p class="price">$205</p>
+
+    <div class="popup" id="popup-7">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(7)">&times;</div>
+    <h1>Sedici Strada II Helmet – Solid</h1>
+   <p>Features:Proprietary shell of fiberglass and DuPont™ Kevlar® fiber is lightweight without sacrificing strength
+Aerodynamically tuned shape reduces lift and turbulence
+3 shell sizes: XS-SM, MD-LG, XL-3XL
+Dual-density EPS liner channeled for airflow
+4 EPS liner sizes: XS-SM, MD-LG, XL-2XL, 3XL
+Quick-release flat race shield is anti-fog, anti-scratch and pinlock ready (pinlock insert sold separately)
+Seamless 360-degree face shield gasket minimizes wind noise
+Dark smoke internal drop down sun visor
+2 position high flow chin vent channels fresh air across the inner shield and rider's face
+Dual intake vents at the crown with 3 settings
+3 rear exhaust vents to maximize air extraction
+Removable, washable multi-density cheek pads are moisture wicking and antibacterial
+Adjustable padding at forehead and temples with 5mm of customization</p>
+   <img src="Accessories img\\sedici_strada2_helmet_matte_black_750x750.jpg" alt="h" style="width:100%">
+  </div>
+  <a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+  </div>
+  <button onclick="togglePopup(7)">View</button>
+
+   </div>
+
+
+  <div class="cardror1">
+    <img src="Accessories img\\yamaha_r1_bike_cover_750x750.jpg" alt="h" style="width:62%">
+    <!--Refrence: https://www.revzilla.com/motorcycle/yamaha-cover -->
+    <h3>Yamaha Cover Motorcycle Cover</h3>
+    <p class="price">$75</p>
+
+    <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup(8)">&times;</div>
+    <h1>Yamaha Cover Motorcycle Cover</h1>
+   <p>Features: Model specific custom fit
+Yamaha logos
+Water-resistant
+UV-resistant
+Integrated soft cotton windshield panel
+Heat-resistant exhaust panel
+Elastic hem</p>
+   <img src="Accessories img\\yamaha_r1_bike_cover_750x750.jpg" alt="h" style="width:100%">
+   <!--Refrence: -->
+  </div>
+  <a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+  </div>
+  <button onclick="togglePopup(8)">View</button>
+   </div>
+
+   <div class="cardror2">
+     <img src="Accessories img\\ducati kc.jpg" alt="h" style="width:42%">
+     <!--Refrence:https://www.ducati.com/in/en/apparel/APP001582 -->
+     <h3>Ducati Keychain</h3>
+     <p class="price">$15.99</p>
+
+     <div class="popup" id="popup-9">
+   <div class="overlay"></div>
+   <div class="content">
+     <div class="close-btn" onclick="togglePopup(9)">&times;</div>
+     <h1>Ducati Keychain</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
+    <img src="Accessories img\\ducati kc.jpg" alt="h" style="width:100%">
+   </div>
+   <a href="service_maintenance.html"style="color:black;"<p><button>Add to Cart</button></p></a>
+   </div>
+   <button onclick="togglePopup(9)">View</button>
+    </div>
+
+    <br><br>
+  <div class="footer" style="display: flex; direction: column; justify-content:space-around;bottom: -1600px;  margin-top: -300px;">
+    <div class="Contentfooter">
+    <a href="index.html"><img src="Logo\logomb2.png" style="width:300px;height:300px; align-items:center; justify-content: left; margin-left: -100px;"  hspace="50" alt=""></a>
+    </div>
+
+    <div class="Contentfooter" style="margin-top: 5px; margin-left: 0px; font-size: 17px;">
+      <p><b>SITE MAP</b></p>
+      <p><a href="Oldschool.html"style="color:#ffffff;">Old School Bikes</a></p>
+      <p><a href="Newschool.html"style="color:#ffffff">New School Bikes</a></p>
+      <p><a href="Customization.html"style="color: #ffffff">Customization</a></p>
+      <p><a href="Service.html"style="color: #ffffff">Service</a></p>
+      <p><a href="News.html"style="color: #ffffff">News</a></p>
+      <p><a href="Contact.html"style="color: #ffffff">Contact</a></p>
+      <p><a href="Aboutus.html"style="color: #ffffff">About Us</a></p>
+    </div>
+
+  <div class="Contentfooter" style="" >
+
+    <div style="" >
+        <p><h4>Address:</h4><h4 style="color: white; font-size: 17px;">Mount Albert, Auckland</h4></p>
+    </div>
+
+    <br>
+
+    <div style="" >
+      <p><h4>Phone:</h4><h4 style="color:white;font-size: 17px;">0224893838 or 0224827499</h3></p>
+    </div>
+    <br>
+
+    <div style="" >
+      <p><h4>Email Address:</h4><h4 style="color:white;font-size: 17px;">Motuka@gmail.com</h3></p>
+    </div>
+
+  </div>
+
+  <div class="Contentfooter" style="margin-right: 100px;" >
+
+    <div style="" >
+        <p><img src = "image/user_icon.png" alt ="user icon" width="30px" height="30px"  >&nbsp;&nbsp;&nbsp;<h4 style="color: white;font-size: 17px;">Ethan <br> Sale/Manager <br>0221234789<br>ethan@Verhoeff.co.nz</h4></p>
+
+    </div>
+    <div style="" >
+      <p><img src = "image/user_icon.png" alt ="user icon" width="30px" height="30px" style="" >&nbsp;&nbsp;&nbsp;<h4 style="color: white;font-size: 17px;">Sascha <br> Director/Repairman <br>0226547891<br>sasch@William.co.nz</h3></p>
+
+    </div>
+
+  </div>
+
+
 
 
   </body>

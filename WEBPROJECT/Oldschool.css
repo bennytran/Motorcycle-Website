@@ -14,6 +14,7 @@ body {
 	height: 300px;
 	background-position: center center;
 	background-image: url("IMG\\harleybanner.png");
+  <!-- Refrence:https://www.zippo.com/collections/harley-davidson-lighters?page=2-->
 	background-size: cover;
   padding-top: .05%;
 }
@@ -34,6 +35,7 @@ body {
   font-size: 20px;
 }
 
+
 .cardro{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -44,6 +46,7 @@ body {
   position: absolute;
   top: 410px;
   left: 210px;
+  max-height: 500px;
 
 
 }
@@ -58,7 +61,7 @@ body {
  position: absolute;
  top: 410px;
  left: 610px;
- text-align: center;
+
 
 }
 
@@ -96,7 +99,22 @@ body {
  font-family: arial;
  padding: 15px;
  position: absolute;
- top: 900px;
+ top: 910px;
+ left: 610px;
+ text-align: center;
+
+
+}
+
+.cardrom2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+ padding: 15px;
+ position: absolute;
+ top: 1400px;
  left: 610px;
  text-align: center;
 }
@@ -112,6 +130,31 @@ body {
  top: 900px;
  left: 1000px;
  text-align: center;
+}
+
+.cardror2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+ padding: 15px;
+ position: absolute;
+ top: 1400px;
+ left: 1000px;
+ text-align: center;
+}
+
+.cardro2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  top: 1400px;
+  left: 210px;
+  text-align: center;
 }
 
 
@@ -138,37 +181,6 @@ button:hover{
 }
 
 
-
-/* .slidershow{
-  width: 700px;
-  height: 400px;
-  overflow: hidden;
-}
-.middle{
-  position: absolute;
-  top: 200%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 1px;
-}
-.navigation{
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-.bar{
-  width: 50px;
-  height: 10px;
-  border: 2px solid #fff;
-  margin: 6px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.bar:hover{
-  background: #fff;
-} */
 
 .popup .overlay {
   position:fixed;

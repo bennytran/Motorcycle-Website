@@ -1,3 +1,3 @@
-function togglePopup(){
-  document.getElementById("popup-1").classList.toggle("active");
+function togglePopup(n) {
+  document.getElementById("popup-" + n).classList.toggle("active");
 }

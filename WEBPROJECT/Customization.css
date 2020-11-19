@@ -13,6 +13,9 @@ body {
 	height: 300px;
 	background-position: center center;
 	background-image: url("image\\motorbike mechanic shopr.jpg");
+
+  /* Reference for Image: https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fphotos%2FF49x0Vct5Lo&psig=AOvVaw3pkjAFbP8GerdNH9r6RUK8&ust=1604097481909000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD3voLv2uwCFQAAAAAdAAAAABAJ */
+
 	background-size: cover;
   padding-top: .05%;
 }
@@ -24,6 +27,12 @@ body {
   color: rgb(245, 233, 233);
   text-shadow: grey 2px 2px;
 
+}
+.topcontent{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .Firstname{
   border-radius: 3px;
@@ -116,6 +125,7 @@ textarea:Focus{
   outline: none;
   border-radius: 9px;
   font-size: 26px;
+  color: black;
 }
 .Submit:Focus{
   border: 3px solid #555;
